@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My School</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
     <nav>
-        <img src="" alt="logo" class="logo">
+        <img src="assets/images.png" alt="logo" class="logo">
         <ul class="nav-bar">
             <li>Home</li>
             <li>Our profil</li>
@@ -17,8 +18,14 @@
         </ul>
     </nav>
     <header>
-        <h1>Hi Mukti, Welcome to our website</h1>
+        <h1>Hi <span id="nama">mukti</span>Welcome to our website</h1>
         <h4>Please enjoy</h4>
+        <button id="tombol">Ganti nama</button>
+        <form>
+            <input required type="text" placeholder="nama anda" id="name-input">
+            <button id="submit">kirim</button>
+            <p id="error-name"></p>
+        </form>
         <img src="assets/Danau-Toba-edited.webp">
         <hr>
     </header>

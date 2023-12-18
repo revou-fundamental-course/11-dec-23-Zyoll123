@@ -9,6 +9,11 @@ nav {
     padding: 20px;
 }
 
+nav img {
+    height: 100px;
+    width: 100px;
+}
+
 .nav-bar {
     list-style-type: none;
 }
