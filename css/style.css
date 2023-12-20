@@ -10,8 +10,8 @@ nav {
 }
 
 nav img {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
 }
 
 .nav-bar {
@@ -21,6 +21,22 @@ nav img {
 .nav-bar li {
     display: inline;
     margin-right: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-bar {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav img {
+        margin-bottom: 15px;
+    }
 }
 
 header {
@@ -52,3 +68,4 @@ header img {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
