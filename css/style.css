@@ -59,6 +59,10 @@ header {
     background-size: 100% 400px;
  }
 
+ .top-facilitation {
+    text-align: center;
+ }
+
 .facilitation {
     display: flex;
     justify-content: space-around;
@@ -79,3 +83,33 @@ header {
     background-size: cover;
 }
 
+.result-message {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.message-class {
+    margin: 20px;
+}
+
+.message-class .custom-input-name {
+    width: 300px;
+    margin-left: 53px;
+    box-sizing: border-box;
+}
+
+.message-class .custom-input-date {
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.message-class .custom-input-message {
+    width: 403px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.message-class .custom-input-submit {
+    width: 403px;
+    box-sizing: border-box;
+}
