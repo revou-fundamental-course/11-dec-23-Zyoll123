@@ -36,6 +36,11 @@ nav img {
     nav img {
         margin-bottom: 15px;
     }
+
+    .container {
+        flex-direction: column;
+        margin-left: 10px;   
+    }   
 }
 
 header {
@@ -83,9 +88,8 @@ header {
     background-size: cover;
 }
 
-.result-message {
-    display: inline-block;
-    margin-right: 10px;
+.container {
+    display: flex;
 }
 
 .message-class {
@@ -93,23 +97,36 @@ header {
 }
 
 .message-class .custom-input-name {
-    width: 300px;
+    width: 350px;
     margin-left: 53px;
     box-sizing: border-box;
 }
 
 .message-class .custom-input-date {
-    width: 300px;
+    width: 350px;
     box-sizing: border-box;
 }
 
 .message-class .custom-input-message {
-    width: 403px;
+    width: 453px;
     height: 100px;
     box-sizing: border-box;
 }
 
 .message-class .custom-input-submit {
-    width: 403px;
+    width: 453px;
     box-sizing: border-box;
+}
+
+.result-message {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.border {
+    width: 700px;
+    height: 180px;
+    margin: 20px;
+    border: 1px solid black;
 }
